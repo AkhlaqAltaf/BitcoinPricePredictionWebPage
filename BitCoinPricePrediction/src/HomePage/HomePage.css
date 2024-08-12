@@ -1,0 +1,56 @@
+.home-page{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+    height: 65vh;
+}
+
+.home-page img{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(122, 122, 122);
+}
+
+#about-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#about-page h2{
+    font-family: sans-serif;
+    color: rgb(201, 180, 66);
+}
+
+#HomePage-Contant {
+    width: 30%;
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 2rem;
+    text-align-last: center;
+}
+
+
+#about-content {
+   display: grid;
+   grid-auto-flow: column;
+}
+#about-content p{
+    text-align: center;
+    padding: 1.5rem;
+    width: 17rem;
+ }
+
+ #about-content img{
+    width: 80px;
+    height: 80px;
+    align-self: center;
+ }
+
+ 

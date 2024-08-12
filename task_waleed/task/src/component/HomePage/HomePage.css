@@ -1,0 +1,24 @@
+.container{
+    /* background-color: aqua; */
+    /* display: flex; */
+  height: 40vh;
+  margin-top: 14vh;
+    /* border: 2px white solid; */
+    border-radius: 5px;
+    padding: 10PX;
+    color: white;
+    /* float: inline-end; */
+    margin-right: 9vw;
+    margin-top: 15vh;
+    margin-bottom: 22vh;
+    
+}
+.box{
+  border: 2px solid white;
+    width: 35%;
+    height: 90%;
+    float: right;
+    border-radius: 13px;
+    padding: 2rem;
+    color: white;
+}

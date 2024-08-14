@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Form from "./component/Form/Form.js";
 import About from "./component/About/About.js";
 import HomePage from "./component/HomePage/HomePage";
 import Navbar from "./component/navbar/Navbar.js";
@@ -13,6 +13,7 @@ function App() {
       <HomePage />
       <About />
       <Footer />
+      
     </>
   );
 }

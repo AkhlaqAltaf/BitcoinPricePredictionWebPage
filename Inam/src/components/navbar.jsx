@@ -1,9 +1,9 @@
-import img from '../../public/images/bitcoin.jpg'
+import img from '../../public/images/btc-logo.webp'
 function Navbar(){
 
     return(
         <>
-    <div class="main">
+    
     <nav class="nav1">
         <h3>Bitcoin Needs Your Support</h3>
     </nav>
@@ -20,7 +20,7 @@ function Navbar(){
 
     
 
-    </div>
+    
         </>
     )
 }

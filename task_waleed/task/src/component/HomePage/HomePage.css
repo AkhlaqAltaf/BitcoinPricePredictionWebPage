@@ -1,24 +1,40 @@
-.container{
-    /* background-color: aqua; */
-    /* display: flex; */
-  height: 40vh;
-  margin-top: 14vh;
-    /* border: 2px white solid; */
-    border-radius: 5px;
-    padding: 10PX;
-    color: white;
-    /* float: inline-end; */
-    margin-right: 9vw;
-    margin-top: 15vh;
-    margin-bottom: 22vh;
-    
+.container {
+  display: flex;
+  height: 87vh;
+  float: none;
+  margin-left: 0vw;
+  /* justify-content: center;   */
 }
-.box{
+.box {
+  /* background-color: rgb(13 20 83); */
+  background-image: url(../../../public/img/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  height: 30vh;
+  margin-left: 5vw;
+  align-self: center;
+  border: 2px solid rgb(224, 210, 210);
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  color: white;
+}
+.picture {
+    margin-left: 5vw;
+  background-color: rgb(82, 87, 131);
+  justify-content: center;
+  height: 60vh;
+  margin-left: 8vw;
+  align-self: center;
   border: 2px solid white;
-    width: 35%;
-    height: 90%;
-    float: right;
-    border-radius: 13px;
-    padding: 2rem;
-    color: white;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  width: 50%;
+  color: rgb(165 167 185);
+  background-image: url(../../../public/img/btc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.size{
+  font-size: 2rem;
 }

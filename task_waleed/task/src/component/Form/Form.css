@@ -1,0 +1,25 @@
+.form{
+    padding: inherit;
+    display: flex;
+    /* justify-items: baseline; */
+    
+    font-family: cursive;
+}
+.form-text{
+margin-left: auto; 
+padding: inherit;    
+/* padding-top: 2vh;    */
+
+}
+.form-button{
+
+    justify-content: center;
+    padding-top: 3vh;
+    padding: 10px;
+    padding: inherit;
+    margin-top: 2vh;
+    margin-left: auto; 
+    mix-blend-mode: soft-light;
+    display: -ms-inline-grid;
+
+}

@@ -1,0 +1,36 @@
+.about-page{
+    background-color:#f4f4f4;
+}
+.container{
+    display: grid;
+    /* height: 40vh; */
+
+    width: 100%;
+    align-items: center;
+    grid-auto-flow: column;
+    justify-items: center;
+
+}
+
+.about-box{
+    /* display: flex; */
+    border: 2px solid black;
+    width: 60%;
+  height: 75vh;
+    color:black;
+    border-radius: 10px;
+    padding: 20px 40px 0px 40px;
+    justify-content: space-evenly;
+    /* margin-top: 5vh; */
+    margin: 40PX 40PX 40PX 40PX;
+
+}
+
+#about-h1{
+    color: black;
+    text-align: center;
+    /* background-color: aliceblue; */
+}
+.about-page{
+    border: 2px solid white;
+}

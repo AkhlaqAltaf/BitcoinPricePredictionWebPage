@@ -5,10 +5,11 @@ function Navbar() {
   return (
     <>
       <div class="top-navbar">
-        <h2>Bitcoin Prediction </h2>
+        <h2>Bitcoin <span id="styl">Prediction</span></h2>
         <h5>
-          Our most recent Bitcoin price forecast indicates that its value will
-          increase by 16.27% and reach $67,374 by August 18, 2024
+           
+          <span id="styl">  Our most recent Bitcoin price  forecast indicates that its value will
+          increase by 16.27% and reach $67,374 by August 18, 2024</span>
         </h5>
       </div>
 
@@ -32,8 +33,11 @@ function Navbar() {
             <Link to="/bitcoin detail">Bitcoin Detail</Link>
           </li>
           <li>
-            <Link to="contact us">Contact Us</Link>
+            <Link to="/page">Form Data</Link>
           </li>
+          {/* <li>
+            <Link to="contact us">Contact Us</Link>
+          </li> */}
         </ul>
       </div>
     </>

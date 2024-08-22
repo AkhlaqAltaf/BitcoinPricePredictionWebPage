@@ -22,9 +22,9 @@ function Bitcoin() {
       {data.map((data) => (
         <div class="mapcontainer">
           <img src={data.imgAddress} alt={data.coinname} class="coin-avatar" />
-          <h1>Coin name = {data.coinname}</h1>
-          <h1>Price = {data.price}</h1>
-          <h1>Volume = {data.Volume}</h1>
+          <h1>{data.coinname}</h1>
+          <h4>Price = {data.price}</h4>
+          <h4>Volume = {data.Volume}</h4>
         </div>
       ))}
     </>

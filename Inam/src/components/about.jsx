@@ -1,9 +1,12 @@
 import img from '../../public/images/btc.jpg'
+import Navbar from './navbar';
+import Button from 'react-bootstrap/Button';
 
 function About(){
     return(
     <>
-    <div className="section">
+
+    <div className="section" id='about'>
       <div class="about">
         <div class="content-section">
             <div className="title">
@@ -13,6 +16,7 @@ function About(){
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing </h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut at eos eum aut qui quaerat sed. Laboriosam, cum. olor sit amet consectetur adipisicing elit. Ut at eos eum aut qui quaerat sed. Laboriosam, cum. </p>
                 <button>Read More</button>
+                <Button>REad More</Button>
             </div>
         </div>
         <div class="img-section">

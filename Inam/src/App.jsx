@@ -16,6 +16,7 @@ import Practice from './components/practice';
 import UserDashboard from './components/userdashboard';
 import Coindetails from './components/coindetails';
 import BasicExample from './components/basicexample';
+import YouTubeSearch from './components/utube';
 
 
 
@@ -29,7 +30,8 @@ function App() {
 <div className="main">
   
 <Navbar/>
-<BasicExample/>
+
+        <YouTubeSearch/>
         <Routes>
           
           <Route path='/' element={<Home/>} />

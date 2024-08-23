@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
 }
 .main{
+    text-decoration: none;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -217,10 +218,17 @@ form {
 
 /* Data mapping component css */
 /* .containerbox {
-   
 } */
-
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    background-color: white;
+    color: black;
+}
 .outerbox {
+    text-decoration: none;
+
     background-color: #2C2C2E;
     padding:2vw 4vw;
     border: 1px solid #a0a0a0;
@@ -255,14 +263,19 @@ form {
     width: 50%;
 }
 h3, h5 {
+    
     margin: 0;
     padding: 0;
 }
+h3{
+    font-size: 2vw;
+    font-weight: 500;
 
-
+}
 h5 {
-    font-weight: normal;
-    color: #a0a0a0;
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .positive {

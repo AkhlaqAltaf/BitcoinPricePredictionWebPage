@@ -19,7 +19,7 @@ function Details({prop}) {
             
            
            {prop.map((item, index) => (
-            <Link to="coindetails" state={{ coin: item }} >
+            <Link to="coindetails" state={{ coin: item }} className="link" >
                 <div className="containerbox" key={index}>
                     <div className="outerbox">
                         <div className="box">

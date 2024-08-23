@@ -17,6 +17,7 @@ import UserDashboard from './components/userdashboard';
 import Coindetails from './components/coindetails';
 import BasicExample from './components/basicexample';
 import YouTubeSearch from './components/utube';
+import PracReg from './components/prac-reg';
 
 
 
@@ -30,7 +31,7 @@ function App() {
 <div className="main">
   
 <Navbar/>
-
+        <PracReg/>
         <YouTubeSearch/>
         <Routes>
           

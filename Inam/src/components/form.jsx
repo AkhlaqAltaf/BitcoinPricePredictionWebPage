@@ -38,8 +38,8 @@ function Form(){
 
 <div className="form-data">
     <div className="form-left">
-        <form onSubmit={handleSubmit} action="">
-            <div className="form-control" id='form-control'>
+        <form id="form" onSubmit={handleSubmit} action="">
+            <div className="form-control" >
                 <label htmlFor="low">Low</label>
                 <input type="number" name="low" id="low" value={low} onChange={handlelow} required/>
                 <label htmlFor="high">High</label>

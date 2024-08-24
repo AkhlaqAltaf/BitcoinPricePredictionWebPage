@@ -18,6 +18,7 @@ import Coindetails from './components/coindetails';
 import BasicExample from './components/basicexample';
 import YouTubeSearch from './components/utube';
 import PracReg from './components/prac-reg';
+import PracLogin from './components/prac_login';
 
 
 
@@ -31,6 +32,7 @@ function App() {
 <div className="main">
   
 <Navbar/>
+<PracLogin/>
         <PracReg/>
         <YouTubeSearch/>
         <Routes>

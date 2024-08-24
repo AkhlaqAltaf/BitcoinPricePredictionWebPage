@@ -12,6 +12,7 @@ function PracReg(){
         try{
         var response=await Reg(email,password);
         console.log("Registration Successful",response);
+        
         }
         catch(error){
             console.log("Some error in Registration",error);
